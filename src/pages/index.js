@@ -8,7 +8,8 @@ import gatsbyAstronaut from '../images/gatsby-astronaut.png';
 export default () => (
 	<Layout>
 		<SEO title="Welcome To My Site" />
-		<h1>Hello World!</h1>
+		<h1>Gatsby Test Site</h1>
+		<p><Link to="https://priceless-feynman-b41ceb.netlify.com/about">https://priceless-feynman-b41ceb.netlify.com/about</Link></p>
 		<img className="hero" src={gatsbyAstronaut} alt="A Gatsby Astronaut" />
 		<p>Read More <Link to={"/about"}>About Me</Link></p>
 	</Layout>
